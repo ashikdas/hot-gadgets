@@ -1,0 +1,8 @@
+.section-bg{
+    background-image: url('images/bg-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    
+}
