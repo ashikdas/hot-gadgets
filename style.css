@@ -1,7 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+.container{
+    margin-bottom: 100px;
+}
 .section-bg{
     background-image: url('images/bg-1.png');
     background-position: center;
@@ -27,4 +29,19 @@ body{
 }
 .carousel-item p{
     color: gray;
+}
+.card{
+    border: none;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+    text-align: center;
+}
+.card img{
+    padding: 12%;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
 }
