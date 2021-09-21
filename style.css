@@ -4,6 +4,9 @@ body{
 .container{
     margin-bottom: 100px;
 }
+#navbar{
+    margin-bottom: 10px;
+}
 .section-bg{
     background-image: url('images/bg-1.png');
     background-position: center;
@@ -19,6 +22,9 @@ body{
     background-size: 110px;
     background-repeat: no-repeat;
     padding-left: 70px;
+}
+.see-all{
+    color: rgb(228, 131, 21);
 }
 .buy-now-button{
     background-color: black;
@@ -41,7 +47,24 @@ body{
 .card img{
     padding: 12%;
 }
+#laptop{
+    margin-top: 100px;
+}
+#laptop p{
+    color: gray;
+}
 .card-footer{
     background-color: white;
     border-top: none;
 }
+#categories h1{
+    text-align: center;
+}
+#categories .card{
+    margin: 10px 0px;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+
+
+
+
