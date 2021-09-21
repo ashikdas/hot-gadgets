@@ -1,8 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .section-bg{
     background-image: url('images/bg-1.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 60px;
     position: relative;
     
+}
+.section-bg2{
+    background-image: url('images/bg-2.png');
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 110px;
+    background-repeat: no-repeat;
+    padding-left: 70px;
+}
+.buy-now-button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
+.carousel-item p{
+    color: gray;
 }
